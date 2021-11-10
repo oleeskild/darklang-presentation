@@ -1,6 +1,6 @@
 # Slide deck for Darklang talk
 
-Slide deck used for a talk about darklang.
+Slide deck used for a talk about [Darklang](https://darklang.com/).
 
 It's just javascript, html and css so you can just open the file in your browser as a file. 
 
