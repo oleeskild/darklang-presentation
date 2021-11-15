@@ -387,6 +387,11 @@ a:focus {
     font-size: 12px;
 }
 
+#components .circle{
+    width: 150px;
+    height: 150px;
+}
+
 .image-and-text {
     display: flex;
     flex-direction: column;
@@ -549,7 +554,30 @@ img.border{
     font-size: 180px;
 }
 
+#splash {
+    display: flex;
+    justify-content: space-between;
+    padding:0;
+}
 
+#splash h1{
+    font-size: 42px;
+}
+
+#splash .logo{
+    transform: translate(150px, -200px);
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-100px);
+    font-size: 32px;
+}
+
+.impress-on-splash .step {
+    opacity: 1;
+}
 
 .impress-on-overview .step {
     opacity: 1;

@@ -23,7 +23,20 @@
 <body>
     <div id="impress" data-transition-duration="1000" data-width="1024" data-height="768" data-max-scale="3"
         data-min-scale="0" data-perspective="1000">
-        <div id="title" class="step" data-x="0" data-y="0">
+        <div id="splash" class="step" data-x="-2000" data-y="-300">
+            <div class="bio">
+                <img height="75" width="75" style="border-radius: 50%;" src="https://icon-library.com/images/generic-user-icon/generic-user-icon-19.jpg">                
+                <h1>Name</h1>
+                <h2>Job Title @ Company/h2>
+                <h3>Email</h3>
+
+            </div>
+
+            <div class="logo">
+                <img height="150" src="img/kdslogo.png" />
+            </div>
+        </div>
+        <div id="title" class="step" data-x="-2000" data-y="0">
             <h1>
                 <svg width="70px" height="102px" viewBox="0 0 35 51" alt="Dark Logo">
                     <g id="Design-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -259,20 +272,20 @@
             <img class="substep" height="300" src="img/azureservicebus.png"
                 style="background-color: white; border-radius: 25px; padding: 10px 0" />
         </div>
-        <div class="step tool" data-z="1000">
-            <!-- GraphQL, gRPC -->
+        <!-- <div class="step tool" data-z="1000">
+            GraphQL, gRPC
             <img height="300" src="img/graphql.png"
                 style="background-color: white; border-radius: 25px; transform: rotate(20deg) translateX(50px);" />
             <img class="substep" height="400" src="img/grpc.png"
                 style="background-color: white; border-radius: 25px; transform: rotate(-10deg)" />
-        </div>
+        </div> -->
 
-        <div class="step tool" data-z="1700">
-            <!-- NPM, Yarn, Webpack -->
+        <!-- <div class="step tool" data-z="1700">
+             NPM, Yarn, Webpack
             <img height="100" src="img/npm.png" style="transform: rotate(-10deg);" />
             <img class="substep" height="100" src="img/yarn.png" style="transform: rotate(5deg);" />
             <img class="substep" height="100" src="img/webpack.png" />
-        </div>
+        </div> -->
 
         <div class="step tool" data-z="-1300">
             <!-- Azure DevOps, Jenkins, GitHub Actions -->
@@ -285,11 +298,11 @@
             <img height="200" src="img/dns.png" style="transform: rotate(5deg) translate(100px, 50px);" />
             <img class="substep" height="200" src="img/computer-networks.png"
                 style="background-color: white; border-radius: 25px; transform: translateY(30px);" />
-            <img class="substep" height="200" src="img/jwt.png"
-                style="background-color: white; border-radius: 25px; transform: translate(-100px, 100px);" />
-            <img class="substep" height="200" src="img/nginx.png" style="transform: translate(0, -40px);" />
-            <img class="substep" height="200" src="img/iis.png"
-                style="background-color:white; border-radius: 25px; transform: translate(-220px, -80px);" />
+            <!-- <img class="substep" height="200" src="img/jwt.png"
+                style="background-color: white; border-radius: 25px; transform: translate(-100px, 100px);" /> -->
+            <!-- <img class="substep" height="200" src="img/nginx.png" style="transform: translate(0, -40px);" /> -->
+            <!-- <img class="substep" height="200" src="img/iis.png"
+                style="background-color:white; border-radius: 25px; transform: translate(-220px, -80px);" /> -->
         </div>
 
         <div class="step" id="overview" data-z="1000" data-rotate-y="50" data-y="4700" data-x="6500">
@@ -360,11 +373,11 @@
 
         <!-- Accidental complexity has som complexity subtypes. Lets see how dark addresses some of these -->
 
-        <div class="step center" data-y="1000">
+        <!-- <div class="step center" data-y="1000">
             <h1 style="transform: translateY(-100px);">Infrastructural Complexity</h1>
             <div class="trinity-circles">
                 <div class="circle">
-                    <!-- Machines and Orchestration-->
+                     Machines and Orchestration
                     <img height="100" src="img/network-server.png" />
                     <h2>Machines & Orchestration</h2>
                 </div>
@@ -377,12 +390,12 @@
                     <h2>Queues</h2>
                 </div>
             </div>
-        </div>
-        <div class="step" id="database-complexity" data-y="1500" data-rotate-x="-90">
+        </div> -->
+        <!-- <div class="step" id="database-complexity" data-y="1500" data-rotate-x="-90">
             <div class="circles">
                 <div class="circle">
                     <h2>ORM</h2>
-                    <!-- How can it fail, how does it scale. How does it handle concurrency. -->
+                    How can it fail, how does it scale. How does it handle concurrency. 
                 </div>
                 <div class="circle">
                     <h2>Indexing</h2>
@@ -397,7 +410,7 @@
                 Datastore
 
             </div>
-        </div>
+        </div> -->
         <!-- Infrastructural complexity -->
         <!-- 
             You shouldn't need to handle machines, orchestration, storage, databases or queues.
@@ -655,6 +668,54 @@
                 </ul>
             </div>
             <h2 class="substep" style="color:black; text-align:center; position: relative;">https://darklang.com</h2>
+        </div>
+        <div class="step" data-y="2000" style="display: flex; flex-direction: column;">
+            <h1 style="font-size: 128px">Thank you</h1>
+            <div style="font-size:8px; align-self: flex-end; transform: translate(200px, 100px);">
+                <h2 style="font-size: 16px">Attribution</h2>
+                <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+                        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat
+                        Icons</a>
+                    from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/ultimatearm"
+                        title="ultimatearm">ultimatearm</a> from <a href="https://www.flaticon.com/"
+                        title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons"
+                        title="Smashicons">Smashicons</a>
+                    from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev"
+                        title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/"
+                        title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/twentyfour"
+                        title="twentyfour">twentyfour</a>
+                    from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/becris" title="Becris">Becris</a> from <a
+                        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/vectorsmarket15"
+                        title="vectorsmarket15">vectorsmarket15</a> from <a href="https://www.flaticon.com/"
+                        title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/itim2101" title="itim2101">itim2101</a>
+                    from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/juicy-fish"
+                        title="juicy_fish">juicy_fish</a>
+                    from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/chanut-is-industries"
+                        title="Chanut-is-Industries">Chanut-is-Industries</a> from <a href="https://www.flaticon.com/"
+                        title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from
+                    <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                </div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/berkahicon"
+                        title="berkahicon">berkahicon</a>
+                    from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/pixelmeetup"
+                        title="Pixelmeetup">Pixelmeetup</a> from <a href="https://www.flaticon.com/"
+                        title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/alfredo-hernandez"
+                        title="Alfredo Hernandez">Alfredo Hernandez</a> from <a href="https://www.flaticon.com/"
+                        title="Flaticon">www.flaticon.com</a></div>
+            </div>
         </div>
 
 
