@@ -2,6 +2,6 @@
 
 Slide deck used for a talk about [Darklang](https://darklang.com/).
 
-It's just javascript, html and css so you can just open the file in your browser as a file. 
+It's just javascript, html and css. It can be viewed in your browser by navigating to index.html
 
 Made using [impress.js](https://github.com/impress/impress.js/)
